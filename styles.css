@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+h1{
+    background: #1f86e0;
+    background: -webkit-linear-gradient(to right bottom, #1f86e0, #ca1c79, #fdee26);
+    background: linear-gradient(to right bottom, #1f86e0, #ca1c79, #fdee26);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    background: #1f86e0;
+    background: -webkit-linear-gradient(to right bottom, #1f86e0, #ca1c79);
+    background: linear-gradient(to right bottom, #1f86e0, #ca1c79);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+body{
+    background-image: url(https://media3.giphy.com/media/KasZzipEr3khqtCAIv/200w.webp?cid=ecf05e470eh39zvz0v0cngb7xc9s7aksi9wq3ws5ngmtd0sk&rid=200w.webp&ct=g);
+    background-size: 55%;
+}
+
+button{
+    position: relative;
+    top: 50%;
+    left: 37%;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box ;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    background: #1f86e0;
+    background: -webkit-linear-gradient(to right bottom, #1f86e0, #ca1c79);
+    background: linear-gradient(to right bottom, #1f86e0, #ca1c79);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    display:flex;
+    position: absolute;
+    left: 35%;
+    padding-top: 100px;
+}
+
+footer>div{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.review{
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+}
+
+form{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+#submit{
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 48%;
+}

@@ -1,0 +1,92 @@
+h1{
+    background: #1f86e0;
+    background: -webkit-linear-gradient(to right bottom, #1f86e0, #ca1c79, #fdee26);
+    background: linear-gradient(to right bottom, #1f86e0, #ca1c79, #fdee26);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+
+h2{
+    background: #1f86e0;
+    background: -webkit-linear-gradient(to right bottom, #1f86e0, #ca1c79, #fdee26);
+    background: linear-gradient(to right bottom, #1f86e0, #ca1c79, #fdee26);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    background: #1f86e0;
+    background: -webkit-linear-gradient(to right bottom, #1f86e0, #ca1c79);
+    background: linear-gradient(to right bottom, #1f86e0, #ca1c79);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+body{
+    background-image: url(lama-roscu-Wpg3Qm0zaGk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    display:flex;
+    position: absolute;
+    left: 35%;
+    padding-top: 100px;
+}
+
+footer>div{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    position: relative;
+   padding: 10px;
+   font-size: large;
+   font-variant: small-caps;
+   border: 1px solid;
+   border-collapse: collapse;
+   width: 100%;
+   background-color: rgba(100, 100, 100, 0.8)
+}
+
+td{
+    padding: 10px;
+    border: 1px solid;
+    max-width: 10px;
+}
+
+td:hover{
+    background-color: #ca1c79;
+    color: violet;
+}
+
+button{
+    background-color: transparent;
+    border-style: none;
+    font-variant: small-caps;
+}
+
+form{
+    display: block;
+}
+
+label{
+    padding: 10px;
+}

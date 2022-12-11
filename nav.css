@@ -1,0 +1,30 @@
+.nav li{
+
+    height: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.nav ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a{
+    display: block;
+    width: 100px;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: aliceblue
+}
+
